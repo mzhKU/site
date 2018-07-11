@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BoxComponent implements OnInit {
 
+  boxes = ['Ueber das Sitehaus',
+           'Im Angebot',
+           'Verwendete Technik'];
+
   constructor() { }
 
   ngOnInit() {

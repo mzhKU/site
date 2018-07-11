@@ -4,13 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BoxComponent } from './box/box.component';
 
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     BoxComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

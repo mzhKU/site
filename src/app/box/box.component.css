@@ -1,5 +1,5 @@
 .container {
-    height: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,7 +30,7 @@ span {
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-family: 'Lobster', 'Trebuchet MS';
     color: rgb(209, 204, 204);
-    font-size: 6em;
+    font-size: 4em;
     
     /* position: relative;
     top: 50%;

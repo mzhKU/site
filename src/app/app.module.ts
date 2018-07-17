@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { BoxComponent } from './box/box.component';
 
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { FlexComponent } from './flex/flex.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BoxComponent
+    BoxComponent,
+    FlexComponent
   ],
   imports: [
     BrowserModule,

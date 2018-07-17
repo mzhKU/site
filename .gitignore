@@ -33,7 +33,8 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-notes-sitehaus
+notes-sitehaus.txt
+.gitignore
 
 # System Files
 .DS_Store

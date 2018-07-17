@@ -16,3 +16,7 @@ Problems:
 - Label font size should be larger but not overflow button areas
   for all view devices
 - Lobster font doesn't work on mobile device
+- Between the boxes, only one separating line should appear, not two
+  (from the above and below box)
+- the margins should collapse
+- Font size should adjust to size of viewport

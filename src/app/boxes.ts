@@ -1,25 +1,25 @@
-export let boxes = [
-    {
-        route: 'sitehaus',
+import { Box } from './box';
+
+export const BOXES = {
+    'sitehaus': {
         title: 'Sitehaus',
-        text: 'Eine Webseite setzt sich zusammen aus Gestaltung, Interaktion und\
-        Technik. Um für den Besucher eine erfreuliche Erfahrung zu werden\
-        müssen diese Elemente ideal miteinander kombiniert werden.\
+        text: 'Um eine Webseite zu erstellen müssen Gestaltung,\
+        Interaktionsmöglichkeiten und Technik zusammen gebracht werden.\
         \
-        Wir sind professionelle Ingenieure die ausgehend von Ihrer\
-        industriellen Erfahrung wissen, wie eine effiziente und\
-        ansprechende Bedienung erfolgt.\
+        Unsere Erfahrung als Ingenieure in industriellem Umfeld prägt\
+        die Gestaltung unserer Produkte.\
+        Sie zeichnen sich durch ein optimiertes, minimalistisches\
+        Design aus und sind höchst funktional.\
+        Der technische Hintergrund wird auch deutlich.\
         \
         Diese Erfahrung setzen wir um in der Erstellung einer Webseite.'
     },
-
-    {   route: 'produktion',
+    'produktion': {
         title: 'Produktion',
         text: 'Produktionstext'
     },
-    {
-        route: 'technologie',
+    'technologie': {
         title: 'Technologie',
         text: 'Technologietext'
     }
-];
+};

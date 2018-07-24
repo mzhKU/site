@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { boxes } from '../boxes';
+import { BOXES } from '../boxes';
+
 
 @Component({
   selector: 'app-overview',
@@ -8,11 +9,13 @@ import { boxes } from '../boxes';
 })
 export class OverviewComponent implements OnInit {
 
-  boxes = boxes;
+  boxes = BOXES;
+  keys: string[];
 
   constructor() { }
 
   ngOnInit() {
+    this.keys = Object.keys(this.boxes);
   }
 
 }

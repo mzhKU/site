@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { boxes } from './boxes';
+import { BOXES } from './boxes';
+
 
 @Component({
   selector: 'app-root',

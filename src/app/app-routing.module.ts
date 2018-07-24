@@ -6,7 +6,7 @@ import { OverviewComponent } from './overview/overview.component';
 
 const routes: Routes = [
   { path: '', component: OverviewComponent },
-  { path: 'sitehaus', component: DetailComponent }
+  { path: ':page', component: DetailComponent }
 ];
 
 

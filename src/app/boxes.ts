@@ -1,5 +1,6 @@
 export let boxes = [
     {
+        route: 'sitehaus',
         title: 'Sitehaus',
         text: 'Eine Webseite setzt sich zusammen aus Gestaltung, Interaktion und\
         Technik. Um für den Besucher eine erfreuliche Erfahrung zu werden\
@@ -12,16 +13,13 @@ export let boxes = [
         Diese Erfahrung setzen wir um in der Erstellung einer Webseite.'
     },
 
-
-
-
-
-
-
-
-
-
-
-    {title: 'Produktion'},
-    {title: 'Technologie'}
+    {   route: 'produktion',
+        title: 'Produktion',
+        text: 'Produktionstext'
+    },
+    {
+        route: 'technologie',
+        title: 'Technologie',
+        text: 'Technologietext'
+    }
 ];

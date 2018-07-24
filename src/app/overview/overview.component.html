@@ -1,0 +1,6 @@
+<ul class="container">
+  <li *ngFor="let box of boxes">
+    <!-- <span class="box">{{ box.title }}</span> -->
+    <a class="box" routerLink="/{{ box.route }}">{{ box.title }}</a>
+  </li>
+</ul>

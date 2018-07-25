@@ -24,3 +24,79 @@ html, body {
     font-family: "Roboto Medium";
     src: url("./assets/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff") format('woff');
 }
+
+h1 {
+    margin: 0;
+    font-family: 'Lobster';
+    font-size: 12vw;
+}
+
+h2 {
+    font-family: 'Roboto Medium';
+}
+
+p {
+    font-family: 'Roboto Light';
+    font-size: 1.5em;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.top {
+    margin: 10%;
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+    margin: 10%;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    flex-grow: 1;
+    margin-bottom: 1%;
+}
+
+a.box {
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Lobster', 'Lucida Grande';
+    color: rgb(98, 98, 98);
+    font-size: 8vw;
+}
+
+span.overview {
+    border-bottom: 1px solid rgb(98, 98, 98);
+}
+
+div.text {
+    padding: 4%;
+    font-family: 'Lucida Grande';
+    font-size: 2em;
+}
+
+a.back {
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    border: 1px solid grey;
+
+    /* background: linear-gradient(135deg, #979797, #c8c8c8); */
+
+    align-self: flex-start;
+    font-family: 'Roboto Medium';
+    font-size: 1.5em;
+}

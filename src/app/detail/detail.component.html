@@ -1,4 +1,15 @@
+<div class="top">
+  <h1>Sitehaus</h1>
 
-<div class="text">
-  {{ box.text }}
+  <h2>{{ box.title }}</h2>
 </div>
+
+<div class="container">
+  <p>
+    {{ box.text }}
+  </p>  
+  <a class="back" (click)="goBack()" data-title="Awesome Button">Zurück</a>
+
+</div>
+  
+  

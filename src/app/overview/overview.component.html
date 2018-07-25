@@ -1,9 +1,29 @@
+
+<div class="top">
+  <h1>Sitehaus</h1>
+  <h2>Martin Hediger</h2>
+  <p>
+    Eine Webseite bringt Gestaltung, Benutzerinteraktion und
+    Technologie zusammen.
+  </p>
+  <p>
+    Unsere Erfahrung als Ingenieure in industriellem Umfeld prägt
+    die Gestaltung unserer Produkte.
+    Sie zeichnen sich durch ein optimiertes, minimalistisches
+    Design aus und sind höchst funktional.
+    Der technische Hintergrund wird auch deutlich.
+  </p>
+  <p>
+    Diese Erfahrung setzen wir um in der Erstellung einer Webseite.
+  </p>
+</div>
+
+
+
 <ul class="container">
   <li *ngFor="let key of keys">
-      <a class="box" routerLink="/{{ key }}">
-        <span class="overview">
-          {{ boxes[key].title }}
-        </span>
-      </a>
+    <a class="box" routerLink="/{{ key }}">
+      <span class="overview">{{ boxes[key].title }}</span>
+    </a>
   </li>
-</ul>
+</ul>    

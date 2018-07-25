@@ -1,8 +1,35 @@
+h1 {
+    margin: 0;
+    font-family: 'Lobster';
+    font-size: 12vw;
+}
+
+h2 {
+    font-family: 'Roboto';
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.top {
+    /* height: 40vh; */
+    margin: 10%;
+    margin-bottom: 0;
+    /* border: 1px solid grey; */
+}
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 20vh;
+    margin: 10%;
+    margin-bottom: 0;
+    /* border: 1px solid grey; */
 }
 
 ul {
@@ -14,9 +41,8 @@ ul {
 li {
     background-color: white;
     /* border-bottom: 1px solid rgb(28, 31, 32); */
-    margin: 10%;
+    /* margin: 10%; */
     flex-grow: 1;
-    display: flex;       
 }
 
 /* https://stackoverflow.com/questions/40884511/angular2-cli-include-custom-fonts */
@@ -25,10 +51,10 @@ a.box {
     text-decoration: none;
     font-family: 'Lobster', 'Lucida Grande';
     color: rgb(98, 98, 98);
-    font-size: 12vw;
+    font-size: 8vw;
 }
 
 span.overview {
-    min-width: 80%;
+    /* min-width: 80%; */
     border-bottom: 1px solid rgb(98, 98, 98);
 }

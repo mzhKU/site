@@ -19,6 +19,7 @@ li {
     display: flex;       
 }
 
+/* https://stackoverflow.com/questions/40884511/angular2-cli-include-custom-fonts */
 a.box {
     margin: auto;
     text-decoration: none;

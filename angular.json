@@ -19,13 +19,16 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
               "src/styles.css",
+<<<<<<< HEAD
               "node_modules/typeface-lobster/index.css",
               "node_modules/roboto-fontface/css/roboto-slab/roboto-slab-fontface.css"
+=======
+              "node_modules/typeface-lobster/index.css"
+>>>>>>> dev
             ],
             "scripts": []
           },

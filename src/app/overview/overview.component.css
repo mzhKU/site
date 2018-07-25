@@ -16,10 +16,8 @@ p {
 }
 
 .top {
-    /* height: 40vh; */
     margin: 10%;
     margin-bottom: 0;
-    /* border: 1px solid grey; */
 }
 
 .container {
@@ -29,7 +27,6 @@ p {
     height: 20vh;
     margin: 10%;
     margin-bottom: 0;
-    /* border: 1px solid grey; */
 }
 
 ul {
@@ -40,9 +37,8 @@ ul {
 
 li {
     background-color: white;
-    /* border-bottom: 1px solid rgb(28, 31, 32); */
-    /* margin: 10%; */
     flex-grow: 1;
+    margin-bottom: 1%;
 }
 
 /* https://stackoverflow.com/questions/40884511/angular2-cli-include-custom-fonts */
@@ -55,6 +51,5 @@ a.box {
 }
 
 span.overview {
-    /* min-width: 80%; */
     border-bottom: 1px solid rgb(98, 98, 98);
 }

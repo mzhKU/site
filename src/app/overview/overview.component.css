@@ -13,7 +13,7 @@ ul {
 
 li {
     background-color: white;
-    border-bottom: 1px solid rgb(28, 31, 32);
+    /* border-bottom: 1px solid rgb(28, 31, 32); */
     margin: 10%;
     flex-grow: 1;
     display: flex;       
@@ -25,4 +25,9 @@ a.box {
     font-family: 'Lobster', 'Lucida Grande';
     color: rgb(98, 98, 98);
     font-size: 12vw;
+}
+
+span.overview {
+    min-width: 80%;
+    border-bottom: 1px solid rgb(98, 98, 98);
 }

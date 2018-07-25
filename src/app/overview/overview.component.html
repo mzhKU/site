@@ -1,6 +1,9 @@
 <ul class="container">
   <li *ngFor="let key of keys">
-    <!-- <span class="box">{{ box.title }}</span> -->
-    <a class="box" routerLink="/{{ key }}">{{ boxes[key].title }}</a>
+      <a class="box" routerLink="/{{ key }}">
+        <span class="overview">
+          {{ boxes[key].title }}
+        </span>
+      </a>
   </li>
 </ul>

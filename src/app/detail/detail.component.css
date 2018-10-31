@@ -1,1 +1,5 @@
-/* Styling done in 'src/styles.css' */
+div.text {
+    padding: 4%;
+    font-family: 'Lucida Grande';
+    font-size: 2em;
+}

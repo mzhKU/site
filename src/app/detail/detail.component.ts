@@ -15,7 +15,6 @@ export class DetailComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private location: Location
   ) { }
 
   ngOnInit(): void {
@@ -39,10 +38,5 @@ export class DetailComponent implements OnInit {
   //
   // See also:
   // https://scotch.io/tutorials/handling-route-parameters-in-angular-v2
-
-
-  goBack(): void {
-    this.location.back();
-  }
 
 }

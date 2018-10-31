@@ -32,11 +32,8 @@ export class DetailComponent implements OnInit {
   // (+) operator converts the string to a number, which
   // is what a hero id should be.
   getBox(): void {
-    // Note: 'params' is discouraged to use: https://angular.io/guide/router
     const page = this.route.snapshot.params.page;
-    if (Object.keys(BOXES).includes(page) || page === '') {
-      this.box = BOXES[page];
-    }
+    this.box = BOXES[page];
   }
   // 'page' is defined as parameter in routing module Routes
   //

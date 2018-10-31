@@ -1,4 +1,4 @@
-// import { Box } from './box';
+import { Box } from './box';
 
 export const BOXES = {
     'produktion': {
@@ -7,11 +7,6 @@ export const BOXES = {
     },
     'technologie': {
         title: 'Verwendete Technologie',
-        text: 'Im folgenden werden Einsatzmöglichkeiten verschiedener\
-        Webtechnologien demonstriert.',
-        sections: {
-            'flexbox': 'Flexbox',
-            'observables': 'Observables in Angular'
-        }
+        text: 'Technologietext'
     }
 };

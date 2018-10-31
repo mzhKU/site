@@ -1,15 +1,26 @@
 <div class="top">
-  <h1>Sitehaus</h1>
-
   <h2>{{ box.title }}</h2>
 </div>
 
-<div class="container">
-  <p>
-    {{ box.text }}
-  </p>  
-  <a class="back" (click)="goBack()" data-title="Awesome Button">Zurück</a>
 
+<div class="container">
+  <p>{{ box.text }}</p>
+  
+  <!-- Angular 6.1.0 feature: keyvalue pipe -->
+  <ul *ngFor="let section of box.sections | keyvalue">
+    <li>
+      <!-- <a routerLink="/technologie/{{ section.key }}"> -->
+      <a routerLink="{{ section.key }}">
+        {{ section.value }}
+      </a>
+    </li>
+  </ul>  
+  <router-outlet></router-outlet> 
+  <a class="back" (click)="goBack()">Zurück</a>
 </div>
-  
-  
+
+
+<!-- <div class="container">
+  <app-flex></app-flex>
+</div> -->
+

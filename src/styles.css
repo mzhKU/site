@@ -10,21 +10,6 @@ html, body {
 }
 
 
-@font-face {
-    font-family: "Roboto Thin";
-    src: url("./assets/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff") format('woff');
-}
-
-@font-face {
-    font-family: "Roboto Light";
-    src: url("./assets/fonts/roboto_light_macroman/Roboto-Light-webfont.woff") format('woff');
-}
-
-@font-face {
-    font-family: "Roboto Medium";
-    src: url("./assets/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff") format('woff');
-}
-
 h1 {
     margin: 0;
     font-family: 'Lobster';
@@ -43,17 +28,21 @@ p {
 }
 
 .top {
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 0;
+    border: 1px solid grey;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 20vh;
-    margin: 10%;
+    /* height: 20vh; */
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 0;
+    border: 1px solid grey;
 }
 
 ul {
@@ -93,10 +82,60 @@ a.back {
     cursor: pointer;
     color: black;
     border: 1px solid grey;
-
+    
     /* background: linear-gradient(135deg, #979797, #c8c8c8); */
-
+    
     align-self: flex-start;
     font-family: 'Roboto Medium';
     font-size: 1.5em;
+}
+
+.info {
+    font-family: 'Roboto Light';
+    font-size: 1.5em;
+}
+
+.error {
+    font-family: 'Roboto Light';
+    font-size: 18em;
+}
+
+
+.bottom {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+app-flex-area {
+    height: 100px;
+    /* width: 80%; */
+    position: sticky;
+    top: 0;
+    display: flex;
+    border: 1px solid grey;
+    background-color: rgb(228, 228, 228);
+
+    justify-content: space-around;
+}
+
+div.item {
+    border: 1px solid black;
+}
+
+
+
+
+@font-face {
+    font-family: "Roboto Thin";
+    src: url("./assets/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("./assets/fonts/roboto_light_macroman/Roboto-Light-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("./assets/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff") format('woff');
 }

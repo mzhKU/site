@@ -1,0 +1,129 @@
+<p>
+  {{ flexText }}
+</p>
+
+<app-flex-area></app-flex-area>
+
+<div *ngFor="let i of [1, 2, 3]">
+  <span>
+    HELLO {{ i }}
+  </span>
+</div>
+
+<div class="descriptions">
+  <div class="prop">
+    <div>Flex Direction</div>
+    <input type="radio" name="flex-direction" id="row" value="row" checked>
+    <label for="row">Row</label>
+    <input type="radio" name="flex-direction" id="column" value="column">
+    <label for="column">Column</label>
+    <input type="radio" name="flex-direction" id="row-reverse" value="row-reverse">
+    <label for="row-reverse">Row-Reverse</label>
+    <input type="radio" name="flex-direction" id="column-reverse" value="column-reverse">
+    <label for="column-reverse">Column-Reverse</label>
+    <div>This establishes the main-axis, thus defining the direction flex items are placed in the flex container. Flexbox is (aside from optional wrapping) a single-direction layout concept. Think of flex items as primarily laying out either in horizontal rows or vertical columns.</div>
+  </div>
+
+  <div class="prop">
+    <div>Flex-wrap</div>
+    <input type="radio" name="flex-wrap" id="nowrap" value="nowrap" checked>
+    <label for="nowrap">No Wrap</label>
+    <input type="radio" name="flex-wrap" id="wrap" value="wrap">
+    <label for="wrap">Wrap</label>
+    <input type="radio" name="flex-wrap" id="wrap-reverse" value="wrap-reverse">
+    <label for="wrap-reverse">Wrap-Reverse</label>
+    <div>By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.</div>
+  </div>
+
+  <div class="prop">
+    <div>Justify-content</div>
+    <input type="radio" name="justify-content" value="flex-start" id="jc-flex-start"><label for="jc-flex-start">Flex-Start</label>
+    <input type="radio" name="justify-content" value="flex-end" id="jc-flex-end"><label for="jc-flex-end">Flex-End</label>
+    <input type="radio" name="justify-content" value="center" id="jc-center"><label for="jc-center">Center</label>
+  </div>
+
+  <div class="prop">
+    <div>Flex Direction</div>
+    <input type="radio" name="flex-direction" id="row" value="row" checked>
+    <label for="row">Row</label>
+    <input type="radio" name="flex-direction" id="column" value="column">
+    <label for="column">Column</label>
+    <input type="radio" name="flex-direction" id="row-reverse" value="row-reverse">
+    <label for="row-reverse">Row-Reverse</label>
+    <input type="radio" name="flex-direction" id="column-reverse" value="column-reverse">
+    <label for="column-reverse">Column-Reverse</label>
+    <div>This establishes the main-axis, thus defining the direction flex items are placed in the flex container. Flexbox is (aside from optional wrapping) a single-direction layout concept. Think of flex items as primarily laying out either in horizontal rows or vertical columns</div>
+  </div>
+        
+  <div class="prop">
+    <div>Flex-wrap</div>
+    <input type="radio" name="flex-wrap" id="nowrap" value="nowrap" checked>
+    <label for="nowrap">No Wrap</label>
+    <input type="radio" name="flex-wrap" id="wrap" value="wrap">
+    <label for="wrap">Wrap</label>
+    <input type="radio" name="flex-wrap" id="wrap-reverse" value="wrap-reverse">
+    <label for="wrap-reverse">Wrap-Reverse</label>
+    <div>By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.</div>
+  </div>
+  <div class="prop">
+    <div>Justify-content</div>
+    <input type="radio" name="justify-content" value="flex-start" id="jc-flex-start"><label for="jc-flex-start">Flex-Start</label>
+    <input type="radio" name="justify-content" value="flex-end" id="jc-flex-end"><label for="jc-flex-end">Flex-End</label>
+    <input type="radio" name="justify-content" value="center" id="jc-center"><label for="jc-center">Center</label>
+
+    <input type="radio" name="align-content" value="stretch" id="ac-stretch"><label for="ac-stretch">Stretch</label>
+    <input type="radio" name="align-content" value="space-between" id="ac-space-between"><label for="ac-space-between">Space-Between</label>
+    <input type="radio" name="align-content" value="space-around" id="ac-space-around"><label for="ac-space-around">Space-Around</label>
+    <div>This aligns a flex container's lines within when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis. Note: this property has no effect when there is only one line of flex items.</div>
+  </div>
+    
+    
+  <div class="prop">
+    <div>Flex (targets only [Item 0])</div>
+    <input type="text" name="flex" value="0" id="flex-grow">
+    <input type="text" name="flex" value="1" id="flex-shrink">
+    <select name="flex"id="flexBasis">
+      <option value="auto">Auto</option>
+      <option value="20%">20%</option>
+      <option value="5em">5em</option>
+    </select>
+    <div>
+      <br />
+      Flex grow:
+      <br />
+      This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.
+      If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children. If one of the children has a value of 2, the remaining space would take up twice as much space as the others (or it will try to, at least).
+    </div>
+    <div>
+      <br />
+      Flex shrink:
+      <br />
+      This defines the ability for a flex item to shrink if necessary.
+    </div>
+    <div>
+      <br />
+      Flex basis:
+      <br />
+      This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means "look at my width or height property" (which was temporarily done by the main-size keyword until deprecated). The content keyword means "size it based on the item's content" - this keyword isn't well supported yet, so it's hard to test and harder to know what its brethren max-content, min-content, and fit-content do.
+    </div>
+  </div>
+    
+    
+  <div class="prop">
+    <div>
+      Align-self (targets only [Item 0])
+    </div>
+    <div>
+      <input type="radio" name="align-self" value="auto" id="as-auto"><label for="as-auto">Auto</label>
+      <input type="radio" name="align-self" value="flex-start" id="as-flex-start"><label for="as-flex-start">Flex-Start</label>
+      <input type="radio" name="align-self" value="flex-end" id="as-flex-end"><label for="">Flex-End</label>
+      <input type="radio" name="align-self" value="center" id="as-center"><label for="as-center">Center</label>
+      <input type="radio" name="align-self" value="baseline" id="as-baseline"><label for="as-baseline">Baseline</label>
+      <input type="radio" name="align-self" value="stretch" id="as-stretch"><label for="as-stretch">Stretch</label>
+    </div>
+    <div>
+        This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.
+        See the align-items explanation to understand the available values.
+    </div>
+  </div>
+</div>
